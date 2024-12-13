@@ -28,7 +28,7 @@ const CONFIG = {
   // Weather
   // ! REMOVE weatherKey before push!!!
   weatherKey: null, // Write here your API Key
-  weatherIcons: "Onedark", // 'Onedark', 'Nord', 'Dark', 'White'
+  weatherIcons: "OneDark", // 'OneDark', 'Nord', 'Dark', 'White'
   weatherUnit: "C", // 'F', 'C'
   language: "pt_br", // More languages in https://openweathermap.org/current#multi
 
