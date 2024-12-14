@@ -76,5 +76,5 @@ function displayWeather() {
   tempElement.innerHTML = `${
     weather.temperature.value.toFixed(0)
   }°<span class="darkfg">${tempUnit}</span>`;
-  descElement.innerHTML = weather.description;
+  descElement.innerHTML = weather.description.charAt(0).toUpperCase() + weather.description.slice(1);
 }
